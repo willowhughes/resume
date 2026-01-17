@@ -1,0 +1,108 @@
+% Custom RenderCV Theme - Classic Professional
+\documentclass[10pt, letterpaper]{article}
+
+% Packages
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+\usepackage{xcolor}
+
+% Page setup
+\geometry{left=0.7in, right=0.7in, top=0.7in, bottom=0.7in}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\Huge Diego Llanes} \\ \vspace{5pt}
+    \normalsize Bellingham, WA, USA \\
+    \small 
+    \href{https://linkedin.com/in/diego-llanes-ai}{linkedin.com/in/diego-llanes-ai} $|$ 
+    \href{https://github.com/Diego-Llanes}{github.com/Diego-Llanes} $|$ 
+    \href{mailto:contact@diegollanes.com}{contact@diegollanes.com} $|$ 
+    \href{https://diegollanes.com}{diegollanes.com}
+\end{center}
+
+% About Me Section
+\section{ABOUT ME}
+Machine learning engineer / data scientist enthusiastic about applying machine learning and statistical solutions to data.
+
+% Experience Section
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Scientific Machine Learning Masters Intern}{Remote, Richland, WA, USA}
+      {Pacific Northwest National Laboratory}{Jul 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{Added features to an open-source project to attract new users from other domains to our project.}
+        \resumeItem{Developed a strong foundation in control theory, deep reinforcement learning and Generative-AI.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Deep Learning Research Assistant}{Bellingham, WA, USA}
+      {Hutchinson Machine Learning Research Group}{Sep 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{Engaged in weekly reviews of state-of-the-art research for deep learning approaches and techniques.}
+        \resumeItem{Developed open-source software to increase accessibility of high-throughput compute to new users.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Course Teaching Assistant}{Bellingham, WA, USA}
+      {Western Washington University}{Mar 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{Developed visualization tools and worksheets to teach complex machine learning concepts effectively.}
+        \resumeItem{Delivered lectures on advanced topics, bridging theoretical knowledge with practical applications.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% Technical Skills Section
+\section{TECHNICAL SKILLS}
+\textbf{Programming Languages:} Python, JavaScript, R, Go, Java, C, C++, HTML, CSS, SQL \\
+\textbf{Libraries and Frameworks:} PyTorch, NumPy, TensorFlow, Gymnasium, Flask, ROS
+
+% Projects Section
+\section{PROJECTS}
+
+\end{document}
