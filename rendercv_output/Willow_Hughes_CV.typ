@@ -8,12 +8,12 @@
   top-note: [ #emph[Last updated in] Jan 2026 ],
   locale-catalog-language: "en",
   page-size: "us-letter",
-  page-top-margin: 0.5in,
+  page-top-margin: 0.4in,
   page-bottom-margin: 0.5in,
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
-  page-show-footer: true,
-  page-show-top-note: true,
+  page-show-footer: false,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -22,7 +22,7 @@
   colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.4em,
+  typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "XCharter",
@@ -61,7 +61,7 @@
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 0.3em,
+  sections-space-between-regular-entries: 0.0em,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -73,7 +73,7 @@
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
   entries-highlights-space-above: 0.08cm,
-  entries-highlights-space-between-items: 0.08cm,
+  entries-highlights-space-between-items: 0em,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
@@ -119,7 +119,7 @@
   [
     #strong[Western Washington University]
 
-    #emph[Computer Science, Pre-Masters and Honors Curriculum | GPA: 3.84 \/ 4.00]
+    #emph[Computer Science, Pre-Masters and Honors Curriculum | 3.84 GPA]
 
   ],
   [
@@ -139,34 +139,9 @@
 
 #regular-entry(
   [
-    #strong[Premera Blue Cross]
+    #strong[Deep Learning Research Assistant]
 
-    #emph[Software Engineering Intern]
-
-  ],
-  [
-    #emph[Seattle, WA]
-
-    #emph[Jun 2024 - Aug 2024]
-
-  ],
-  main-column-second-row: [
-    - Led early stages of migration project of a C\#\/SQL web app to Azure
-
-    - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
-
-    - Implemented AuthN\/AuthZ with Azure’s Entra ID and published a guide on the internal Premera wiki
-
-    - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Western Washington University]
-
-    #emph[Deep Learning Research Assistant]
+    #emph[Hutchinson Machine Learning Research Group]
 
   ],
   [
@@ -185,9 +160,9 @@
 
 #regular-entry(
   [
-    #strong[Western Washington University]
+    #strong[Undergraduate Research Assistant]
 
-    #emph[Undergraduate Research Assistant]
+    #emph[Western Washington University]
 
   ],
   [
@@ -198,6 +173,31 @@
   ],
   main-column-second-row: [
     - First author on research paper investigating Test-Driven Development in CS education; submitted to ITiCSE 2026 conference
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Software Engineering Intern]
+
+    #emph[Premera Blue Cross]
+
+  ],
+  [
+    #emph[Seattle, WA]
+
+    #emph[Jun 2024 - Aug 2024]
+
+  ],
+  main-column-second-row: [
+    - Led early stages of migration project of a C\#\/SQL web app to Azure
+
+    - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
+
+    - Implemented AuthN\/AuthZ with Azure’s Entra ID and published a guide on the internal Premera wiki
+
+    - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams
 
   ],
 )
