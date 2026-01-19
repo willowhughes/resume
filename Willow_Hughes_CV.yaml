@@ -2,52 +2,39 @@
 cv:
   name: Willow Hughes
   headline:
-  location: San Francisco, CA
-  email: john.doe@email.com
+  location: Bellingham, WA
+  email: willownoamhughes@email.com
   photo:
   phone:
-  website: https://rendercv.com/
+  website:
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: willowhughes
     - network: GitHub
-      username: rendercv
+      username: willowhughes
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - See the [documentation](https://docs.rendercv.com) for more details.
+    # About Me:
+    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
     education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
-        summary:
-        highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-          - 'Advisor: Prof. Sanjeev Arora'
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Boğaziçi University
-        area: Computer Engineering
+      - institution: Western Washington University
+        area: 'Computer Science'
+        degree: MS
+        date: Jan 2026 – Mar 2027
+        location: Bellingham, WA
+      - institution: Western Washington University
+        area: 'Computer Science | GPA: 3.84 / 4.00'
         degree: BS
-        date:
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - 'GPA: 3.97/4.00, Valedictorian'
-          - Fulbright Scholarship recipient for graduate studies
+        date: Jan 2023 – Dec 2025
+        # start_date: 2014-09
+        # end_date: 2018-06
+        location: Bellingham, WA
     experience:
-      - company: Nexus AI
-        position: Co-Founder & CTO
-        date:
-        start_date: 2023-06
-        end_date: present
-        location: San Francisco, CA
+      - company: Premera Blue Cross
+        position: Software Engineering Intern
+        date: Jun 2024 - Aug 2024
+        location: Bellingham, WA
         summary:
         highlights:
           - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
@@ -186,15 +173,15 @@ cv:
       - The `design` field in YAML gives you control over almost any aspect of your CV design.
       - See the [documentation](https://docs.rendercv.com) for more details.
 design:
-  theme: customtheme
-  # page:
-  #   size: us-letter
-  #   top_margin: 0.7in
-  #   bottom_margin: 0.7in
-  #   left_margin: 0.7in
-  #   right_margin: 0.7in
-  #   show_footer: true
-  #   show_top_note: true
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: true
+    show_top_note: true
   # colors:
   #   body: rgb(0, 0, 0)
   #   name: rgb(0, 79, 144)
@@ -276,46 +263,48 @@ design:
   #     space_above: 0cm
   #     space_between_items: 0cm
   #     space_between_bullet_and_text: 0.5em
-  # templates:
-  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
-  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
-  #   single_date: MONTH_ABBREVIATION YEAR
-  #   date_range: START_DATE – END_DATE
-  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
-  #   one_line_entry:
-  #     main_column: '**LABEL:** DETAILS'
-  #   education_entry:
-  #     main_column: |-
-  #       **INSTITUTION**, AREA
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     degree_column: '**DEGREE**'
-  #     date_and_location_column: |-
-  #       LOCATION
-  #       DATE
-  #   normal_entry:
-  #     main_column: |-
-  #       **NAME**
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     date_and_location_column: |-
-  #       LOCATION
-  #       DATE
-  #   experience_entry:
-  #     main_column: |-
-  #       **COMPANY**, POSITION
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     date_and_location_column: |-
-  #       LOCATION
-  #       DATE
-  #   publication_entry:
-  #     main_column: |-
-  #       **TITLE**
-  #       SUMMARY
-  #       AUTHORS
-  #       URL (JOURNAL)
-  #     date_and_location_column: DATE
+  templates:
+    footer: "*NAME* -- PAGE_NUMBER/TOTAL_PAGES"
+    top_note: "*LAST_UPDATED* CURRENT_DATE"
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: (HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS)
+    one_line_entry:
+      main_column: "**LABEL:** DETAILS"
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *AREA*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: "*DEGREE*"
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column: |-
+        **COMPANY**
+        *POSITION*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        [JOURNAL]
+      date_and_location_column: DATE
 locale:
   language: english
   # last_updated: Last updated in

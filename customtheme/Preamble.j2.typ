@@ -81,3 +81,13 @@
     day: {{ settings.current_date.day }},
   ),
 )
+
+// Custom show rules to match custom_classic_theme.tex
+#show heading.where(level: 2): it => [
+  #v(0.3cm)
+  #set text(size: 1.1em, weight: "bold")
+  #upper(smallcaps(it.body))
+  #v(-0.7em)
+  #line(length: 100%, stroke: 0.5pt)
+  #v(0.1cm)
+]

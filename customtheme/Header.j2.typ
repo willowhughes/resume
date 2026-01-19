@@ -20,25 +20,18 @@
 {% endif %}
 {% endif %}
 {% if cv.name %}
-= {{ cv.name }}
-{% endif %}
+#align(center)[
+  #block(text(30pt, weight: "bold")[{{ cv.name }}])
+  #v(5pt)
+  
+  {% if cv.location %}
+  #text(11pt)[{{ cv.location }}] \
+  {% endif %}
 
-{% if cv.headline %}
-  #headline([{{ cv.headline }}])
-
-{% endif %}
-#connections(
-{% for connection in cv.connections %}
-  [{{ connection }}],
-{% endfor %}
-)
-{% if cv.photo %}
-{% if design.header.photo_position == "left" %}
+  #text(10pt)[
+    {% for connection in cv.connections %}
+    {{ connection }} {% if not loop.last %} $|$ {% endif %}
+    {% endfor %}
   ]
-)
-{% else %}
-  ],
-  [{{ image() }}],
-)
-{% endif %}
+]
 {% endif %}
