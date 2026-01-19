@@ -3,13 +3,13 @@ cv:
   name: Willow Hughes
   headline:
   location: Bellingham, WA
-  email: willownoamhughes@email.com
+  email: willownoamhughes@gmail.com
   photo:
-  phone:
+  # phone: "+1 360-920-5625"
   website:
   social_networks:
     - network: LinkedIn
-      username: willowhughes
+      username: willow-hughes
     - network: GitHub
       username: willowhughes
   custom_connections:
@@ -19,12 +19,12 @@ cv:
     #   - See the [documentation](https://docs.rendercv.com) for more details.
     education:
       - institution: Western Washington University
-        area: 'Computer Science'
+        area: 'Computer Science, AI/ML Specialization'
         degree: MS
         date: Jan 2026 – Mar 2027
         location: Bellingham, WA
       - institution: Western Washington University
-        area: 'Computer Science | GPA: 3.84 / 4.00'
+        area: 'Computer Science, Pre-Masters and Honors Curriculum | GPA: 3.84 / 4.00'
         degree: BS
         date: Jan 2023 – Dec 2025
         # start_date: 2014-09
@@ -34,144 +34,116 @@ cv:
       - company: Premera Blue Cross
         position: Software Engineering Intern
         date: Jun 2024 - Aug 2024
+        location: Seattle, WA
+        highlights:
+          - Led early stages of migration project of a C#/SQL web app to Azure
+          - Built CI/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by >40%
+          - Implemented AuthN/AuthZ with Azure’s Entra ID and published a guide on the internal Premera wiki
+          - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams
+      - company: Western Washington University
+        position: Deep Learning Research Assistant
+        date: Dec 2025 – Present
         location: Bellingham, WA
-        summary:
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-      - company: NVIDIA Research
-        position: Research Intern
-        date:
-        start_date: 2022-05
-        end_date: 2022-08
-        location: Santa Clara, CA
-        summary:
+          - Developing ML models using LiDAR geospatial data to detect archaeological sites in collaboration with field archaeologists
+          - Building training pipeline with ground-truth survey data to automate site identification and prioritization for excavation
+      - company: Western Washington University
+        position: Undergraduate Research Assistant
+        date: Oct 2024 – Dec 2025
+        location: Bellingham, WA
         highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
-      - company: Google DeepMind
-        position: Research Intern
-        date:
-        start_date: 2021-05
-        end_date: 2021-08
-        location: London, UK
-        summary:
-        highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
-      - company: Apple ML Research
-        position: Research Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-08
-        location: Cupertino, CA
-        summary:
-        highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
-      - company: Microsoft Research
-        position: Research Intern
-        date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
-        highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
-    projects:
-      - name: '[FlashInfer](https://github.com/)'
-        date:
-        start_date: 2023-01
-        end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
-        highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: '[NeuralPrune](https://github.com/)'
-        date: '2021'
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
-        highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-    publications:
-      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
-        authors:
-          - '*John Doe*'
-          - Sarah Williams
-          - David Park
-        summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: NeurIPS 2023
-        date: 2023-07
-      - title: Neural Architecture Search via Differentiable Pruning
-        authors:
-          - James Liu
-          - '*John Doe*'
-        summary:
-        doi: 10.1234/neurips.2022.5678
-        url:
-        journal: NeurIPS 2022, Spotlight
-        date: 2022-12
-      - title: Multi-Agent Reinforcement Learning with Emergent Communication
-        authors:
-          - Maria Garcia
-          - '*John Doe*'
-          - Tom Anderson
-        summary:
-        doi: 10.1234/icml.2022.9012
-        url:
-        journal: ICML 2022
-        date: 2022-07
-      - title: On-Device Model Compression via Learned Quantization
-        authors:
-          - '*John Doe*'
-          - Kevin Wu
-        summary:
-        doi: 10.1234/iclr.2021.3456
-        url:
-        journal: ICLR 2021, Best Paper Award
-        date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
+          - First author on research paper investigating Test-Driven Development in CS education; submitted to ITiCSE 2026 conference
     skills:
-      - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
-    any_section_title:
-      - You can use any section title you want.
-      - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
-      - Markdown syntax is supported everywhere.
-      - The `design` field in YAML gives you control over almost any aspect of your CV design.
-      - See the [documentation](https://docs.rendercv.com) for more details.
+      - label: Programming Languages
+        details: Python, Java, C, C#, SQL, JavaScript, Bash
+      - label: Tools
+        details: Git, Linux/Unix, Azure, NumPy, PyTorch, CI/CD, IaC, Android Studio, Windows
+      - label: Coursework
+        details: Machine Learning/Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems, SDLC
+    projects:
+      - name: Conversational AI Spanish Tutor (Python, TypeScript, Flask, AI APIs)
+        highlights:
+          - Building a real-time voice conversation system for language learning with Python/Flask backend and React frontend
+          - Currently optimizing the STT -> LLM -> TTS pipeline to achieve <1s voice response
+      - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
+        highlights:
+          - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
+      - name: Multithreaded Image Processing Application (C, POSIX Threads)
+        highlights:
+          - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
+          - Engineered an efficient image filtering pipeline, achieving up to a ~70% runtime reduction through optimized thread synchronization and workload distribution
+      - name: Multi-Client Chat Application (C, Sockets)
+        highlights:
+          - Implemented scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I/O using select() for efficient multi-threaded performance
+    # publications:
+    #   - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+    #     authors:
+    #       - '*John Doe*'
+    #       - Sarah Williams
+    #       - David Park
+    #     summary:
+    #     doi: 10.1234/neurips.2023.1234
+    #     url:
+    #     journal: NeurIPS 2023
+    #     date: 2023-07
+    #   - title: Neural Architecture Search via Differentiable Pruning
+    #     authors:
+    #       - James Liu
+    #       - '*John Doe*'
+    #     summary:
+    #     doi: 10.1234/neurips.2022.5678
+    #     url:
+    #     journal: NeurIPS 2022, Spotlight
+    #     date: 2022-12
+    #   - title: Multi-Agent Reinforcement Learning with Emergent Communication
+    #     authors:
+    #       - Maria Garcia
+    #       - '*John Doe*'
+    #       - Tom Anderson
+    #     summary:
+    #     doi: 10.1234/icml.2022.9012
+    #     url:
+    #     journal: ICML 2022
+    #     date: 2022-07
+    #   - title: On-Device Model Compression via Learned Quantization
+    #     authors:
+    #       - '*John Doe*'
+    #       - Kevin Wu
+    #     summary:
+    #     doi: 10.1234/iclr.2021.3456
+    #     url:
+    #     journal: ICLR 2021, Best Paper Award
+    #     date: 2021-05
+    # selected_honors:
+    #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+    #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+    #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+    #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+    #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
+    involvement:
+      - name: Competitive Programming Club
+        date: Jan 2024 – Present
+        highlights:
+          - Work in small teams to solve leetcode and other coding problems to get extra problem solving practice and to prepare for competitions such as the International Collegiate Programming Contest (ICPC)
+      - name: Orchestra & Band Involvement
+        date: 2013 – Present
+        highlights:
+          - Played in orchestras for 8 years and actively perform in bands
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    # invited_talks:
+    #   - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+    #   - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+    #   - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+    #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+    # any_section_title:
+    #   - You can use any section title you want.
+    #   - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+    #   - Markdown syntax is supported everywhere.
+    #   - The `design` field in YAML gives you control over almost any aspect of your CV design.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
 design:
   theme: engineeringresumes
   page:
@@ -191,8 +163,8 @@ design:
   #   links: rgb(0, 79, 144)
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
-  # typography:
-  #   line_spacing: 0.6em
+  typography:
+    line_spacing: 0.4em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
@@ -220,15 +192,15 @@ design:
   # links:
   #   underline: false
   #   show_external_link_icon: false
-  # header:
+  header:
   #   alignment: center
   #   photo_width: 3.5cm
   #   photo_position: left
   #   photo_space_left: 0.4cm
   #   photo_space_right: 0.4cm
-  #   space_below_name: 0.7cm
-  #   space_below_headline: 0.7cm
-  #   space_below_connections: 0.7cm
+    space_below_name: 0.4cm
+    #   space_below_headline: 0.7cm
+    space_below_connections: 0.4cm
   #   connections:
   #     phone_number_format: national
   #     hyperlink: true
@@ -241,9 +213,9 @@ design:
   #   line_thickness: 0.5pt
   #   space_above: 0.5cm
   #   space_below: 0.3cm
-  # sections:
+  sections:
   #   allow_page_break: true
-  #   space_between_regular_entries: 1.2em
+    space_between_regular_entries: 0.3em
   #   space_between_text_based_entries: 0.3em
   #   show_time_spans_in:
   #     - experience
