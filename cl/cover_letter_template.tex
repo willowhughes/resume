@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75\baselineskip}
+
+% --------- Customize these ---------
+\newcommand{\company}{Company Name}
+\newcommand{\hiringmanager}{}
+\newcommand{\companyaddress}{City, ST}
+
+
+\begin{document}
+
+\begin{center}
+  {\Large\textbf{Willow Hughes}}\\[0.25\baselineskip]
+  (360) 920-5625\;\textbar\;\href{mailto:willownoamhughes@gmail.com}{willownoamhughes@gmail.com}\;\textbar\;\href{https://linkedin.com/in/willow-hughes}{linkedin.com/in/willow-hughes}\;\textbar\;Bellingham, WA
+\end{center}
+
+\today
+
+\company\\
+\ifx\hiringmanager\empty\else Attn: \hiringmanager\\\fi
+\companyaddress
+
+\vspace{\baselineskip}
+
+Dear Hiring Manager,
+
+% no em dashes. Don't sound robotic. It should be genuine. Im entry level (intern/newgrad) so I don't have much experience to speak for so a cover letter that is short, sweet and genuine is key. Showing genuine enthusiasm or curiousity.
+
+I am writing to apply for the [Position Title] role at \company. I am excited about [1--2 sentences on why this role/company].
+
+[discuss most relevent experience to job desc or company (if nothing is highly relevent, discuss most impressive work). Try to show value and measurable impact but don't exadgerate]. These experiences align well with your needs in [key requirement] and [key requirement].
+
+I'm eager to discuss how I can contribute to \company. Thank you for your time and consideration.
+
+Sincerely,
+
+\includegraphics[height=1.6cm]{signature.png}
+
+\end{document}
