@@ -55,7 +55,7 @@ cv:
           - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams
     skills:
       - label: Programming Languages
-        details: Python, Java, C, C#, SQL, JavaScript, Bash
+        details: Python, Java, C, C#, SQL, JavaScript
       - label: Tools
         details: Git, Linux/Unix, Azure, NumPy, PyTorch, CI/CD, IaC, Android Studio, Windows
       - label: Coursework
