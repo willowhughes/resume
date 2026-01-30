@@ -36,8 +36,8 @@ cv:
         date: Dec 2025 – Present
         location: Bellingham, WA
         highlights:
-          - Developing ML models using LiDAR geospatial data to detect archaeological sites in collaboration with field archaeologists
-          - Building training pipeline with ground-truth survey data to automate site identification and prioritization for excavation
+          - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
+          - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
@@ -49,7 +49,7 @@ cv:
         date: Jun 2024 - Aug 2024
         location: Seattle, WA
         highlights:
-          - Led early stages of migration project of a C#/SQL web app to Azure
+          - Contributed to the migration project of a C#/SQL web app to Azure
           - Built CI/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by >40%
           - Implemented AuthN/AuthZ with Azure’s Entra ID and published a guide on the internal Premera wiki
           - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams

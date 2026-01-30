@@ -151,9 +151,9 @@
 
   ],
   main-column-second-row: [
-    - Developing ML models using LiDAR geospatial data to detect archaeological sites in collaboration with field archaeologists
+    - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
 
-    - Building training pipeline with ground-truth survey data to automate site identification and prioritization for excavation
+    - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
 
   ],
 )
@@ -191,7 +191,7 @@
 
   ],
   main-column-second-row: [
-    - Led early stages of migration project of a C\#\/SQL web app to Azure
+    - Contributed to the migration project of a C\#\/SQL web app to Azure
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
@@ -204,7 +204,7 @@
 
 == Skills
 
-#strong[Programming Languages:] Python, Java, C, C\#, SQL, JavaScript, Bash
+#strong[Programming Languages:] Python, Java, C, C\#, SQL, JavaScript
 
 #strong[Tools:] Git, Linux\/Unix, Azure, NumPy, PyTorch, CI\/CD, IaC, Android Studio, Windows
 
