@@ -31,7 +31,7 @@
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
   typography-font-size-body: 10pt,
-  typography-font-size-name: 25pt,
+  typography-font-size-name: 20pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
   typography-font-size-section-titles: 1.2em,
@@ -191,7 +191,7 @@
 
   ],
   main-column-second-row: [
-    - Contributed to the migration project of a C\#\/SQL web app to Azure
+    - Contributed to the migration of a C\#\/SQL web app to Azure
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
