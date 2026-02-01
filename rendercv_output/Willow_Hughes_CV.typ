@@ -57,7 +57,7 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
+  section-titles-space-above: 0.4cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
@@ -191,13 +191,13 @@
 
   ],
   main-column-second-row: [
-    - Contributed to the migration of a C\#\/SQL web app to Azure
+    - Migrated a C\#\/SQL web application to Azure
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
-    - Implemented AuthN\/AuthZ with Azure’s Entra ID and published a guide on the internal Premera wiki
+    - Implemented authentication and authorization with Azure Entra ID and authored a guide on the internal Premera wiki
 
-    - Collaborated directly with Microsoft engineers to optimize cloud migration strategy and report findings to internal teams
+    - Worked with Microsoft engineers to refine the cloud migration strategy and reported findings to internal teams
 
   ],
 )

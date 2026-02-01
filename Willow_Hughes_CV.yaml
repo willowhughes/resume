@@ -208,11 +208,11 @@ design:
   #     display_urls_instead_of_usernames: false
   #     separator: ''
   #     space_between_connections: 0.5cm
-  # section_titles:
+  section_titles:
   #   type: with_partial_line
   #   line_thickness: 0.5pt
-  #   space_above: 0.5cm
-  #   space_below: 0.3cm
+    space_above: 0.4cm
+    space_below: 0.3cm
   sections:
   #   allow_page_break: true
     space_between_regular_entries: 0.0em
