@@ -14,9 +14,9 @@ cv:
       username: willowhughes
   custom_connections:
   sections:
-    # About Me:
-    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-    #   - See the [documentation](https://docs.rendercv.com) for more details.
+    About Me:
+      - Developer enthusiastic about building high-quality software systems, with expertise in machine learning and data engineering.
+      # - See the [documentation](https://docs.rendercv.com) for more details.
     education:
       - institution: Western Washington University
         area: 'Computer Science, AI/ML Specialization'
@@ -123,8 +123,6 @@ cv:
     involvement:
       - name: Competitive Programming Club
         date: Jan 2024 – Present
-        highlights:
-          - Work in small teams to solve leetcode and other coding problems to get extra problem solving practice and to prepare for competitions such as the International Collegiate Programming Contest (ICPC)
       - name: Orchestra & Band Involvement
         date: 2013 – Present
         highlights:
@@ -148,14 +146,15 @@ design:
   theme: engineeringresumes
   page:
     size: us-letter
-    top_margin: 0.4in
-    bottom_margin: 0.5in
+    top_margin: 0.3in
+    bottom_margin: 0.3in
     left_margin: 0.5in
     right_margin: 0.5in
     show_footer: false
     show_top_note: false
-  # colors:
-  #   body: rgb(0, 0, 0)
+  colors:
+    # body: rgb(24, 24, 24)
+    body: rgb(0, 0, 0)
   #   name: rgb(0, 79, 144)
   #   headline: rgb(0, 79, 144)
   #   connections: rgb(0, 79, 144)

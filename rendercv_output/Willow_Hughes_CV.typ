@@ -8,8 +8,8 @@
   top-note: [ #emph[Last updated in] Jan 2026 ],
   locale-catalog-language: "en",
   page-size: "us-letter",
-  page-top-margin: 0.4in,
-  page-bottom-margin: 0.5in,
+  page-top-margin: 0.3in,
+  page-bottom-margin: 0.3in,
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
   page-show-footer: false,
@@ -92,6 +92,10 @@
   [#link("https://github.com/willowhughes", icon: false, if-underline: false, if-color: false)[github.com\/willowhughes]],
 )
 
+
+== About Me
+
+Developer enthusiastic about building high-quality software systems, with expertise in machine learning and data engineering.
 
 == Education
 
@@ -280,8 +284,6 @@
 
   ],
   main-column-second-row: [
-    - Work in small teams to solve leetcode and other coding problems to get extra problem solving practice and to prepare for competitions such as the International Collegiate Programming Contest (ICPC)
-
   ],
 )
 
