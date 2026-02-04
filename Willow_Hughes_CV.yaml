@@ -19,7 +19,7 @@ cv:
       # - See the [documentation](https://docs.rendercv.com) for more details.
     education:
       - institution: Western Washington University
-        area: 'Computer Science, AI/ML Specialization'
+        area: 'Computer Science, AI/ML Specialization | 4.00 GPA'
         degree: MS
         date: Jan 2026 – Mar 2027
         location: Bellingham, WA
