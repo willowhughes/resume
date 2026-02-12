@@ -1,8 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Willow Hughes
   headline:
   location: Bellingham, WA
   email: willownoamhughes@gmail.com
+  photo:
+  # phone: "+1 360-920-5625"
   website:
   social_networks:
     - network: LinkedIn
@@ -13,6 +16,7 @@ cv:
   sections:
     About Me:
       - Developer enthusiastic about building high-quality software systems, with expertise in machine learning and data engineering.
+      # - See the [documentation](https://docs.rendercv.com) for more details.
     education:
       - institution: Western Washington University
         area: 'Computer Science, AI/ML Specialization | 4.00 GPA'
@@ -23,6 +27,8 @@ cv:
         area: 'Computer Science, Pre-Masters and Honors Curriculum | 3.84 GPA'
         degree: BS
         date: Jan 2023 – Dec 2025
+        # start_date: 2014-09
+        # end_date: 2018-06
         location: Bellingham, WA
     experience:
       - company: Hutchinson Machine Learning Research Group
@@ -59,6 +65,9 @@ cv:
         highlights:
           - Building a real-time voice conversation system for language learning with Python/Flask backend and React frontend
           - Currently optimizing the STT -> LLM -> TTS pipeline to achieve <1s voice response
+      - name: Deep Neural Network from Scratch (Python, NumPy)
+        highlights:
+          - Implemented forward/backpropagation, gradient descent, and layer abstractions in pure NumPy to understand DNN fundamentals
       - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
         highlights:
           - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
@@ -69,6 +78,51 @@ cv:
       - name: Multi-Client Chat Application (C, Sockets)
         highlights:
           - Implemented scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I/O using select() for efficient multi-threaded performance
+    # publications:
+    #   - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+    #     authors:
+    #       - '*John Doe*'
+    #       - Sarah Williams
+    #       - David Park
+    #     summary:
+    #     doi: 10.1234/neurips.2023.1234
+    #     url:
+    #     journal: NeurIPS 2023
+    #     date: 2023-07
+    #   - title: Neural Architecture Search via Differentiable Pruning
+    #     authors:
+    #       - James Liu
+    #       - '*John Doe*'
+    #     summary:
+    #     doi: 10.1234/neurips.2022.5678
+    #     url:
+    #     journal: NeurIPS 2022, Spotlight
+    #     date: 2022-12
+    #   - title: Multi-Agent Reinforcement Learning with Emergent Communication
+    #     authors:
+    #       - Maria Garcia
+    #       - '*John Doe*'
+    #       - Tom Anderson
+    #     summary:
+    #     doi: 10.1234/icml.2022.9012
+    #     url:
+    #     journal: ICML 2022
+    #     date: 2022-07
+    #   - title: On-Device Model Compression via Learned Quantization
+    #     authors:
+    #       - '*John Doe*'
+    #       - Kevin Wu
+    #     summary:
+    #     doi: 10.1234/iclr.2021.3456
+    #     url:
+    #     journal: ICLR 2021, Best Paper Award
+    #     date: 2021-05
+    # selected_honors:
+    #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
+    #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
+    #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
+    #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
+    #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
     involvement:
       - name: Competitive Programming Club
         date: Jan 2024 – Present
@@ -76,6 +130,21 @@ cv:
         date: 2013 – Present
         highlights:
           - Played in orchestras for 8 years and actively perform in bands
+    # patents:
+    #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
+    #   - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+    #   - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
+    # invited_talks:
+    #   - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
+    #   - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
+    #   - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+    #   - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+    # any_section_title:
+    #   - You can use any section title you want.
+    #   - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+    #   - Markdown syntax is supported everywhere.
+    #   - The `design` field in YAML gives you control over almost any aspect of your CV design.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
 design:
   theme: engineeringresumes
   page:
@@ -212,6 +281,38 @@ design:
       date_and_location_column: DATE
 locale:
   language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
 settings:
   current_date: '2026-01-16'
   render_command:
