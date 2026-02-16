@@ -41,7 +41,7 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     tex_file = os.path.join(script_dir, "cover_letter_template.tex")
     oldletters_dir = os.path.join(script_dir, "oldletters")
-    output_pdf = os.path.join(oldletters_dir, f"{safe_name}_coverletter.pdf")
+    output_pdf = os.path.join(oldletters_dir, f"{safe_name}_cover_letter.pdf")
     
     pdflatex = find_pdflatex()
     if not pdflatex:
