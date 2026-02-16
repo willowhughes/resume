@@ -59,9 +59,9 @@ cv:
         highlights:
           - Building a real-time voice conversation system for language learning with Python/Flask backend and React frontend
           - Currently optimizing the STT -> LLM -> TTS pipeline to achieve <1s voice response
-      - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
-        highlights:
-          - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
+      # - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
+      #   highlights:
+      #     - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
       - name: Multithreaded Image Processing Application (C, POSIX Threads)
         highlights:
           - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
