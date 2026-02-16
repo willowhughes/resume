@@ -51,7 +51,7 @@ cv:
       - label: Programming Languages
         details: Python, Java, C, C#, SQL, JavaScript
       - label: Tools
-        details: Git, Linux/Unix, Azure, NumPy, PyTorch, CI/CD, IaC, Android Studio, Windows
+        details: Git, Linux/Unix, Azure, NumPy, PyTorch, CI/CD, IaC, Android Studio, Windows, AWS, GCP
       - label: Coursework
         details: Machine Learning/Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems, SDLC
     projects:
@@ -217,8 +217,8 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_Resume.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_Resume.pdf
     markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
     html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
     png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
