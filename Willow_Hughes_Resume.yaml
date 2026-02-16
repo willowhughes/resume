@@ -12,7 +12,7 @@ cv:
   custom_connections:
   sections:
     About Me:
-      - Developer enthusiastic about building high-quality software systems, with expertise in machine learning and data engineering.
+      - Developer enthusiastic about building high-quality software systems, with expertise in machine learning and backend systems.
     education:
       - institution: Western Washington University
         area: 'Computer Science, AI/ML Specialization | 4.00 GPA'
