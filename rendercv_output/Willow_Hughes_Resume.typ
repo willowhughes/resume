@@ -95,7 +95,7 @@
 
 == About Me
 
-Developer enthusiastic about building high-quality software systems, with expertise in machine learning and backend systems.
+Machine learning researcher and software engineer with a passion for applying deep learning and data science to complex, real-world problems.
 
 == Education
 
@@ -195,24 +195,22 @@ Developer enthusiastic about building high-quality software systems, with expert
 
   ],
   main-column-second-row: [
-    - Migrated a C\#\/SQL web application to Azure
+    - Led cloud migration of a C\#\/SQL web application to Azure, coordinating with Microsoft engineers to assist with strategy
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
-    - Implemented authentication and authorization with Azure Entra ID and authored a guide on the internal Premera wiki
-
-    - Worked with Microsoft engineers to refine the cloud migration strategy and reported findings to internal teams
+    - Implemented authentication and authorization with Azure Entra ID; documented migration process and presented findings to internal stakeholders
 
   ],
 )
 
 == Skills
 
-#strong[Programming Languages:] Python, Java, C, C\#, SQL, JavaScript
+#strong[Tools & Frameworks:] PyTorch, NumPy, Git, Linux\/Unix, Azure, AWS, GCP, CI\/CD, IaC (Bicep)
 
-#strong[Tools:] Git, Linux\/Unix, Azure, NumPy, PyTorch, CI\/CD, IaC, Android Studio, Windows, AWS, GCP
+#strong[Areas:] Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
 
-#strong[Coursework:] Machine Learning\/Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems, SDLC
+#strong[Coursework:] Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
 
 == Projects
 
@@ -224,9 +222,22 @@ Developer enthusiastic about building high-quality software systems, with expert
   [
   ],
   main-column-second-row: [
-    - Building a real-time voice conversation system for language learning with Python\/Flask backend and React frontend
+    - Designed and building a real-time voice AI system integrating STT, LLM, and TTS APIs with a Python\/Flask backend and React frontend
 
-    - Currently optimizing the STT -\> LLM -\> TTS pipeline to achieve \<1s voice response
+    - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
+
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[Deep Neural Network from Scratch (Python, NumPy)]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Implemented forward\/backpropagation, gradient descent, and layer abstractions in pure NumPy to understand deep learning fundamentals
 
   ],
 )
