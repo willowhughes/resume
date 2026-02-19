@@ -12,10 +12,10 @@ cv:
   custom_connections:
   sections:
     About Me:
-      - Machine learning researcher and software engineer with a passion for applying deep learning and data science to complex, real-world problems.
+      - Machine learning researcher and software engineer with a passion for applying AI to complex, real-world problems.
     education:
       - institution: Western Washington University
-        area: 'Computer Science, AI/ML Specialization | 4.00 GPA'
+        area: 'Computer Science | 4.00 GPA'
         degree: MS
         date: Jan 2026 – Mar 2027
         location: Bellingham, WA
@@ -32,7 +32,7 @@ cv:
         highlights:
           - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
           - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
-          - Participate in weekly ML reading group focused on seminal work in large language models
+          - Participating in weekly ML reading group focused on seminal work in large language models
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
@@ -41,23 +41,16 @@ cv:
           - First author on research paper investigating Test-Driven Development in CS education; submitted to ITiCSE 2026 conference
       - company: Premera Blue Cross
         position: Software Engineering Intern
-        date: Jun 2024 - Aug 2024
+        date: Jun 2024 – Aug 2024
         location: Seattle, WA
         highlights:
           - Led the cloud migration of a C#/SQL web application to Azure, coordinating with Microsoft engineers to assist with strategy
           - Built CI/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by >40%
-          - Implemented authentication and authorization with Azure Entra ID; documented migration process and presented findings to internal stakeholders
-    skills:
-      - label: Languages
-        details: Python, Java, C, C#, SQL, TypeScript, JavaScript
-      - label: Tools & Frameworks
-        details: PyTorch, NumPy, Git, Linux/Unix, Azure, AWS, GCP, CI/CD, IaC (Bicep)
-      - label: Coursework
-        details: Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
+          - Implemented authentication and authorization with Azure Entra ID
     projects:
-      - name: Conversational AI Spanish Tutor (Python, TypeScript, Flask, AI APIs)
+      - name: Conversational AI Spanish Tutor (Python, TypeScript, React, Flask, REST APIs)
         highlights:
-          - Designed and building a real-time voice AI system integrating STT, LLM, and TTS APIs with a Python/Flask backend and React frontend
+          - Building a real-time voice AI system with a Python/Flask REST API backend and React frontend, integrating STT, LLM, and TTS services
           - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
       - name: Deep Neural Network from Scratch (Python, NumPy)
         highlights:
@@ -68,10 +61,19 @@ cv:
       - name: Multithreaded Image Processing Application (C, POSIX Threads)
         highlights:
           - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
-          - Engineered an efficient image filtering pipeline, achieving up to a ~70% runtime reduction through optimized thread synchronization and workload distribution
+          - Engineered an efficient image filtering pipeline, achieving up to ~70% runtime reduction through optimized thread synchronization and workload distribution
       - name: Multi-Client Chat Application (C, Sockets)
         highlights:
-          - Implemented scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I/O using select() for efficient multi-threaded performance
+          - Implemented a scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I/O using select() for efficient multi-threaded performance
+    skills:
+      - label: Languages
+        details: Python, Java, C, C#, SQL, TypeScript, JavaScript
+      - label: Tools & Frameworks
+        details: Git, Docker, Linux/Unix, Bash/Shell, CI/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
+      - label: Coursework
+        details: Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
+      - label: Areas
+        details: Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
     involvement:
       - name: Competitive Programming Club
         date: Jan 2024 – Present

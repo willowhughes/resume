@@ -95,7 +95,7 @@
 
 == About Me
 
-Software engineer and ML practitioner who enjoys building things that work in the real world. Interested in AI systems, language models, and products that have direct user impact.
+Machine learning researcher and software engineer with a passion for applying AI to complex, real-world problems.
 
 == Education
 
@@ -103,7 +103,7 @@ Software engineer and ML practitioner who enjoys building things that work in th
   [
     #strong[Western Washington University]
 
-    #emph[Computer Science, AI\/ML Specialization | 4.00 GPA]
+    #emph[Computer Science | 4.00 GPA]
 
   ],
   [
@@ -155,11 +155,11 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
   ],
   main-column-second-row: [
-    - Participate in weekly ML reading group focused on seminal work in large language models
-
     - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
 
     - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
+
+    - Participating in weekly ML reading group focused on seminal work in large language models
 
   ],
 )
@@ -193,7 +193,7 @@ Software engineer and ML practitioner who enjoys building things that work in th
   [
     #emph[Seattle, WA]
 
-    #emph[Jun 2024 - Aug 2024]
+    #emph[Jun 2024 – Aug 2024]
 
   ],
   main-column-second-row: [
@@ -201,7 +201,7 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
-    - Implemented authentication and authorization with Azure Entra ID; documented migration process and presented findings to internal stakeholders
+    - Implemented authentication and authorization with Azure Entra ID
 
   ],
 )
@@ -210,17 +210,15 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
   #regular-entry(
   [
-    #strong[Conversational AI Spanish Tutor (Python, TypeScript, Flask, OpenAI API)]
+    #strong[Conversational AI Spanish Tutor (Python, TypeScript, React, Flask, REST APIs)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Designing and building a real-time voice AI agent integrating STT, LLM (OpenAI), and TTS APIs with a Python\/Flask backend and React frontend
+    - Building a real-time voice AI system with a Python\/Flask REST API backend and React frontend, integrating STT, LLM, and TTS services
 
-    - Prompt-engineered an AI tutor persona with contextual memory
-
-    - Optimizing end-to-end inference pipeline to achieve sub-second voice response latency
+    - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
 
   ],
 )
@@ -240,13 +238,28 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
   #regular-entry(
   [
+    #strong[Multithreaded Image Processing Application (C, POSIX Threads)]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
+
+    - Engineered an efficient image filtering pipeline, achieving up to \~70\% runtime reduction through optimized thread synchronization and workload distribution
+
+  ],
+)
+
+  #regular-entry(
+  [
     #strong[Multi-Client Chat Application (C, Sockets)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Implemented scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I\/O using select() for efficient multi-threaded performance
+    - Implemented a scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I\/O using select() for efficient multi-threaded performance
 
   ],
 )
@@ -255,9 +268,11 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
 #strong[Languages:] Python, Java, C, C\#, SQL, TypeScript, JavaScript
 
-#strong[Tools & Frameworks:] PyTorch, NumPy, Git, Linux\/Unix, Azure, AWS, GCP, CI\/CD, IaC (Bicep), OpenAI API, REST APIs
+#strong[Tools & Frameworks:] Git, Docker, Linux\/Unix, Bash\/Shell, CI\/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
 
-#strong[Areas:] LLMs, Prompt Engineering, AI Agents, Deep Learning, Computer Vision, NLP, Data Pipelines, Cloud Engineering, Geospatial Intelligence
+#strong[Coursework:] Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
+
+#strong[Areas:] Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
 
 == Involvement
 
@@ -276,7 +291,7 @@ Software engineer and ML practitioner who enjoys building things that work in th
 
 #regular-entry(
   [
-    #strong[Orchestra & Band]
+    #strong[Orchestra & Band Involvement]
 
   ],
   [
