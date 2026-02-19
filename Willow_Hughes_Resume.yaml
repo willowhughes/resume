@@ -32,6 +32,7 @@ cv:
         highlights:
           - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
           - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
+          - Participate in weekly ML reading group focused on seminal work in large language models
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
@@ -60,7 +61,7 @@ cv:
           - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
       - name: Deep Neural Network from Scratch (Python, NumPy)
         highlights:
-          - Implemented forward/backpropagation, gradient descent, and layer abstractions in pure NumPy to understand deep learning fundamentals
+          - Implemented forward/backpropagation, gradient descent, and layer abstractions in NumPy to understand deep learning fundamentals
       # - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
       #   highlights:
       #     - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
@@ -76,8 +77,6 @@ cv:
         date: Jan 2024 – Present
       - name: Orchestra & Band Involvement
         date: 2013 – Present
-        highlights:
-          - Played in orchestras for 8 years and actively perform in bands
 design:
   theme: engineeringresumes
   page:
