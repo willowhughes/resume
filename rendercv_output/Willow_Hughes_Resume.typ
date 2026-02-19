@@ -95,7 +95,7 @@
 
 == About Me
 
-Machine learning researcher and software engineer with a passion for applying deep learning and data science to complex, real-world problems.
+Software engineer and ML practitioner who enjoys building things that work in the real world. Interested in AI systems, language models, and products that have direct user impact.
 
 == Education
 
@@ -155,6 +155,8 @@ Machine learning researcher and software engineer with a passion for applying de
 
   ],
   main-column-second-row: [
+    - Participate in weekly ML reading group focused on seminal work in large language models
+
     - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
 
     - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
@@ -195,7 +197,7 @@ Machine learning researcher and software engineer with a passion for applying de
 
   ],
   main-column-second-row: [
-    - Led cloud migration of a C\#\/SQL web application to Azure, coordinating with Microsoft engineers to assist with strategy
+    - Led the cloud migration of a C\#\/SQL web application to Azure, coordinating with Microsoft engineers to assist with strategy
 
     - Built CI\/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by \>40\%
 
@@ -204,27 +206,21 @@ Machine learning researcher and software engineer with a passion for applying de
   ],
 )
 
-== Skills
-
-#strong[Tools & Frameworks:] PyTorch, NumPy, Git, Linux\/Unix, Azure, AWS, GCP, CI\/CD, IaC (Bicep)
-
-#strong[Areas:] Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
-
-#strong[Coursework:] Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
-
 == Projects
 
   #regular-entry(
   [
-    #strong[Conversational AI Spanish Tutor (Python, TypeScript, Flask, AI APIs)]
+    #strong[Conversational AI Spanish Tutor (Python, TypeScript, Flask, OpenAI API)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Designed and building a real-time voice AI system integrating STT, LLM, and TTS APIs with a Python\/Flask backend and React frontend
+    - Designing and building a real-time voice AI agent integrating STT, LLM (OpenAI), and TTS APIs with a Python\/Flask backend and React frontend
 
-    - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
+    - Prompt-engineered an AI tutor persona with contextual memory
+
+    - Optimizing end-to-end inference pipeline to achieve sub-second voice response latency
 
   ],
 )
@@ -237,22 +233,7 @@ Machine learning researcher and software engineer with a passion for applying de
   [
   ],
   main-column-second-row: [
-    - Implemented forward\/backpropagation, gradient descent, and layer abstractions in pure NumPy to understand deep learning fundamentals
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[Multithreaded Image Processing Application (C, POSIX Threads)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
-
-    - Engineered an efficient image filtering pipeline, achieving up to a \~70\% runtime reduction through optimized thread synchronization and workload distribution
+    - Implemented forward\/backpropagation, gradient descent, and layer abstractions in NumPy to understand deep learning fundamentals
 
   ],
 )
@@ -269,6 +250,14 @@ Machine learning researcher and software engineer with a passion for applying de
 
   ],
 )
+
+== Skills
+
+#strong[Languages:] Python, Java, C, C\#, SQL, TypeScript, JavaScript
+
+#strong[Tools & Frameworks:] PyTorch, NumPy, Git, Linux\/Unix, Azure, AWS, GCP, CI\/CD, IaC (Bicep), OpenAI API, REST APIs
+
+#strong[Areas:] LLMs, Prompt Engineering, AI Agents, Deep Learning, Computer Vision, NLP, Data Pipelines, Cloud Engineering, Geospatial Intelligence
 
 == Involvement
 
@@ -287,7 +276,7 @@ Machine learning researcher and software engineer with a passion for applying de
 
 #regular-entry(
   [
-    #strong[Orchestra & Band Involvement]
+    #strong[Orchestra & Band]
 
   ],
   [
@@ -295,7 +284,5 @@ Machine learning researcher and software engineer with a passion for applying de
 
   ],
   main-column-second-row: [
-    - Played in orchestras for 8 years and actively perform in bands
-
   ],
 )

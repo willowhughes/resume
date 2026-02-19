@@ -48,10 +48,10 @@ cv:
           - Built CI/CD (YAML) pipelines and IaC (Bicep) templates for core services, reducing deployment time by >40%
           - Implemented authentication and authorization with Azure Entra ID; documented migration process and presented findings to internal stakeholders
     skills:
+      - label: Languages
+        details: Python, Java, C, C#, SQL, TypeScript, JavaScript
       - label: Tools & Frameworks
         details: PyTorch, NumPy, Git, Linux/Unix, Azure, AWS, GCP, CI/CD, IaC (Bicep)
-      - label: Areas
-        details: Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
       - label: Coursework
         details: Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
     projects:
