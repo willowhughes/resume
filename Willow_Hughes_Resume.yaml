@@ -33,6 +33,7 @@ cv:
           - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
           - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
           - Participating in weekly ML reading group focused on seminal work in large language models
+          - Serving on subcommittee defining standards for how AI tools are responsibly leveraged in academic research
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
@@ -72,8 +73,6 @@ cv:
         details: Git, Docker, Linux/Unix, Bash/Shell, CI/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
       - label: Coursework
         details: Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
-      - label: Areas
-        details: Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
     involvement:
       - name: Competitive Programming Club
         date: Jan 2024 – Present

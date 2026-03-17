@@ -161,6 +161,8 @@ Machine learning researcher and software engineer with a passion for applying AI
 
     - Participating in weekly ML reading group focused on seminal work in large language models
 
+    - Serving on subcommittee defining standards for how AI tools are responsibly leveraged in academic research
+
   ],
 )
 

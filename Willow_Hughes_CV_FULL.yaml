@@ -38,6 +38,8 @@ cv:
         highlights:
           - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
           - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
+          - Participating in weekly ML reading group focused on seminal work in large language models
+          - Serving on subcommittee defining standards for how AI tools are responsibly leveraged in academic research
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
