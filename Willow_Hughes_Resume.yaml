@@ -12,7 +12,7 @@ cv:
   custom_connections:
   sections:
     About Me:
-      - Machine learning researcher and software engineer with a passion for applying AI to complex, real-world problems.
+      - Machine learning researcher and developer with a passion for applying AI to complex, real-world problems.
     education:
       - institution: Western Washington University
         area: 'Computer Science | 4.00 GPA'
@@ -25,15 +25,24 @@ cv:
         date: Jan 2023 – Dec 2025
         location: Bellingham, WA
     experience:
+      - company: Pacific Northwest National Laboratory | National Security Directorate
+        position: AI & Data Analytics Intern
+        date: Summer 2026
+        location: Seattle, WA
+        highlights:
+          - Incoming intern working on AI Assurance
       - company: Hutchinson Machine Learning Research Group
         position: Deep Learning Research Assistant
         date: Dec 2025 – Present
         location: Bellingham, WA
         highlights:
-          - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
-          - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
-          - Participating in weekly ML reading group focused on seminal work in large language models
-          - Serving on subcommittee defining standards for how AI tools are responsibly leveraged in academic research
+          - Developing deep learning segmentation models in PyTorch for LiDAR-based Maya site detection, reaching 0.74 IoU on structures, collaborating with archaeologists to address domain-specific challenges
+          - Re-engineered the data pipeline on a fragile shared NFS (lossless 3TB to 500GB compression, staged caching, multiworker generation), cutting data generation from 24h to 5h and epoch time from 90m to 30m
+          - Participating in a weekly ML reading group on foundational LLM research
+      - company: Western Washington University
+        position: Teaching Assistant, Object-Oriented Design
+        date: Mar 2026 – June 2026
+        location: Bellingham, WA
       - company: Western Washington University
         position: Undergraduate Research Assistant
         date: Oct 2024 – Dec 2025
@@ -53,9 +62,9 @@ cv:
         highlights:
           - Building a real-time voice AI system with a Python/Flask REST API backend and React frontend, integrating STT, LLM, and TTS services
           - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
-      - name: Deep Neural Network from Scratch (Python, NumPy)
-        highlights:
-          - Implemented forward/backpropagation, gradient descent, and layer abstractions in NumPy to understand deep learning fundamentals
+      # - name: Deep Neural Network from Scratch (Python, NumPy)
+        # highlights:
+          # - Implemented forward/backpropagation, gradient descent, and layer abstractions in NumPy to understand deep learning fundamentals
       # - name: Deadwood Board Game (Java, Maven, JavaFX, FXML)
       #   highlights:
       #     - Built a digital board game featuring a JavaFX GUI with real-time updates, and XML-based game data parsing
@@ -63,19 +72,16 @@ cv:
         highlights:
           - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
           - Engineered an efficient image filtering pipeline, achieving up to ~70% runtime reduction through optimized thread synchronization and workload distribution
-      - name: Multi-Client Chat Application (C, Sockets)
-        highlights:
-          - Implemented a scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I/O using select() for efficient multi-threaded performance
     skills:
       - label: Languages
         details: Python, Java, C, C#, SQL, TypeScript, JavaScript
       - label: Tools & Frameworks
         details: Git, Docker, Linux/Unix, Bash/Shell, CI/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
-      - label: Coursework
-        details: Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
     involvement:
-      - name: Competitive Programming Club
-        date: Jan 2024 – Present
+      - name: WWU's First Hackathon (Organizing Team)
+        date: 2026 – Present
+        highlights:
+          - Consulting with local nonprofits to source real-world projects for student teams to build during the event
       - name: Orchestra & Band Involvement
         date: 2013 – Present
 design:

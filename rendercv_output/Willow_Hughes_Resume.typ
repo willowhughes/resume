@@ -95,7 +95,7 @@
 
 == About Me
 
-Machine learning researcher and software engineer with a passion for applying AI to complex, real-world problems.
+Machine learning researcher and developer with a passion for applying AI to complex, real-world problems.
 
 == Education
 
@@ -115,8 +115,6 @@ Machine learning researcher and software engineer with a passion for applying AI
   degree-column: [
     #emph[MS]
   ],
-  main-column-second-row: [
-  ],
 )
 
 #education-entry(
@@ -135,11 +133,28 @@ Machine learning researcher and software engineer with a passion for applying AI
   degree-column: [
     #emph[BS]
   ],
-  main-column-second-row: [
-  ],
 )
 
 == Experience
+
+#regular-entry(
+  [
+    #strong[AI & Data Analytics Intern]
+
+    #emph[Pacific Northwest National Laboratory | National Security Directorate]
+
+  ],
+  [
+    #emph[Seattle, WA]
+
+    #emph[Summer 2026]
+
+  ],
+  main-column-second-row: [
+    - Incoming intern working on AI Assurance
+
+  ],
+)
 
 #regular-entry(
   [
@@ -155,14 +170,29 @@ Machine learning researcher and software engineer with a passion for applying AI
 
   ],
   main-column-second-row: [
-    - Developing deep learning models (U-Net, CNN, SuperPoint Transformer) in PyTorch for LiDAR-based Maya site detection
+    - Developing deep learning segmentation models in PyTorch for LiDAR-based Maya site detection, reaching 0.74 IoU on structures, collaborating with archaeologists to address domain-specific challenges
 
-    - Processing geospatial remote sensing data and collaborating with archaeologists to address domain-specific challenges
+    - Re-engineered the data pipeline on a fragile shared NFS (lossless 3TB to 500GB compression, staged caching, multiworker generation), cutting data generation from 24h to 5h and epoch time from 90m to 30m
 
-    - Participating in weekly ML reading group focused on seminal work in large language models
+    - Participating in a weekly ML reading group on foundational LLM research
 
-    - Serving on subcommittee defining standards for how AI tools are responsibly leveraged in academic research
+  ],
+)
 
+#regular-entry(
+  [
+    #strong[Teaching Assistant, Object-Oriented Design]
+
+    #emph[Western Washington University]
+
+  ],
+  [
+    #emph[Bellingham, WA]
+
+    #emph[Mar 2026 – June 2026]
+
+  ],
+  main-column-second-row: [
   ],
 )
 
@@ -227,19 +257,6 @@ Machine learning researcher and software engineer with a passion for applying AI
 
   #regular-entry(
   [
-    #strong[Deep Neural Network from Scratch (Python, NumPy)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Implemented forward\/backpropagation, gradient descent, and layer abstractions in NumPy to understand deep learning fundamentals
-
-  ],
-)
-
-  #regular-entry(
-  [
     #strong[Multithreaded Image Processing Application (C, POSIX Threads)]
 
   ],
@@ -253,41 +270,26 @@ Machine learning researcher and software engineer with a passion for applying AI
   ],
 )
 
-  #regular-entry(
-  [
-    #strong[Multi-Client Chat Application (C, Sockets)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Implemented a scalable TCP chat server supporting 255+ concurrent clients with real-time message routing, event-driven architecture, and non-blocking I\/O using select() for efficient multi-threaded performance
-
-  ],
-)
-
 == Skills
 
 #strong[Languages:] Python, Java, C, C\#, SQL, TypeScript, JavaScript
 
 #strong[Tools & Frameworks:] Git, Docker, Linux\/Unix, Bash\/Shell, CI\/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
 
-#strong[Coursework:] Machine Learning, Deep Learning, Statistics, Data Structures and Algorithms, Operating Systems
-
-#strong[Areas:] Deep Learning, Computer Vision, Geospatial Intelligence, NLP, Data Pipelines, Cloud Engineering, DevSecOps
-
 == Involvement
 
 #regular-entry(
   [
-    #strong[Competitive Programming Club]
+    #strong[WWU's First Hackathon (Organizing Team)]
 
   ],
   [
-    #emph[Jan 2024 – Present]
+    #emph[2026 – Present]
 
   ],
   main-column-second-row: [
+    - Consulting with local nonprofits to source real-world projects for student teams to build during the event
+
   ],
 )
 
