@@ -86,7 +86,6 @@
 = Willow Hughes
 
 #connections(
-  [Bellingham, WA],
   [#link("mailto:willownoamhughes@gmail.com", icon: false, if-underline: false, if-color: false)[willownoamhughes\@gmail.com]],
   [#link("https://linkedin.com/in/willow-hughes", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/willow-hughes]],
   [#link("https://github.com/willowhughes", icon: false, if-underline: false, if-color: false)[github.com\/willowhughes]],
@@ -95,7 +94,7 @@
 
 == About Me
 
-Machine learning researcher and developer with a passion for applying AI to complex, real-world problems.
+Data Scientist passionate about AI safety and interpretability.
 
 == Education
 
@@ -139,7 +138,7 @@ Machine learning researcher and developer with a passion for applying AI to comp
 
 #regular-entry(
   [
-    #strong[AI & Data Analytics Intern]
+    #strong[Research Intern]
 
     #emph[Pacific Northwest National Laboratory | National Security Directorate]
 
@@ -147,11 +146,11 @@ Machine learning researcher and developer with a passion for applying AI to comp
   [
     #emph[Seattle, WA]
 
-    #emph[Summer 2026]
+    #emph[Jun 2026 - Present]
 
   ],
   main-column-second-row: [
-    - Incoming intern working on AI Assurance
+    - Current intern researching AI Assurance
 
   ],
 )
@@ -170,11 +169,11 @@ Machine learning researcher and developer with a passion for applying AI to comp
 
   ],
   main-column-second-row: [
-    - Developing deep learning segmentation models in PyTorch for LiDAR-based Maya site detection, reaching 0.74 IoU on structures, collaborating with archaeologists to address domain-specific challenges
+    - Participating in a weekly reading group on foundational LLM research
 
-    - Re-engineered the data pipeline on a fragile shared NFS (lossless 3TB to 500GB compression, staged caching, multiworker generation), cutting data generation from 24h to 5h and epoch time from 90m to 30m
+    - Developing segmentation models in PyTorch for LiDAR-based Maya site detection, reaching 0.74 mIoU on structures, collaborating with archaeologists to address domain-specific challenges
 
-    - Participating in a weekly ML reading group on foundational LLM research
+    - Re-engineered the data pipeline on a fragile shared NFS\/HPC-cluster (\~lossless 3TB to 70GB compression, staged caching, multiworker generation), cutting data generation from 24h to 3h and epoch time from 90m to 30m
 
   ],
 )
@@ -210,7 +209,7 @@ Machine learning researcher and developer with a passion for applying AI to comp
 
   ],
   main-column-second-row: [
-    - First author on research paper investigating Test-Driven Development in CS education; submitted to ITiCSE 2026 conference
+    - First author on research paper investigating Test-Driven Development in CS education; accepted to SIGCSE 2026 conference
 
   ],
 )
@@ -242,30 +241,30 @@ Machine learning researcher and developer with a passion for applying AI to comp
 
   #regular-entry(
   [
-    #strong[Conversational AI Spanish Tutor (Python, TypeScript, React, Flask, REST APIs)]
+    #strong[Reccurent-Depth Decision Model (PyTorch, LLM)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Building a real-time voice AI system with a Python\/Flask REST API backend and React frontend, integrating STT, LLM, and TTS services
+    - Adapted a 2.6B looped transformer into a single-pass decision model, raising unseen-task accuracy from 42\% to 73\%.
 
-    - Optimizing the end-to-end inference pipeline to achieve sub-second voice response latency
+    - Matched a top-2 sub-3B model on the Decision Index leaderboard on unseen tasks.
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[Multithreaded Image Processing Application (C, POSIX Threads)]
+    #strong[Light-Seeking Crazyflie Drone (Python, PyTorch, C, Webots, ONNX, OpenCV)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Developed a C program utilizing POSIX threads to implement a Laplacian edge detection algorithm on PPM images
+    - Trained a \~6k-parameter DQN light-seeking policy in Webots and exported it to ONNX for GAP8
 
-    - Engineered an efficient image filtering pipeline, achieving up to \~70\% runtime reduction through optimized thread synchronization and workload distribution
+    - Wrote GAP8 firmware (camera capture, CPX protocol); deployed the policy to seek a flashlight in a dark room
 
   ],
 )
@@ -274,7 +273,7 @@ Machine learning researcher and developer with a passion for applying AI to comp
 
 #strong[Languages:] Python, Java, C, C\#, SQL, TypeScript, JavaScript
 
-#strong[Tools & Frameworks:] Git, Docker, Linux\/Unix, Bash\/Shell, CI\/CD, Azure, AWS, GCP, React, REST APIs, PyTorch, NumPy
+#strong[Tools & Frameworks:] Git, PyTorch, HuggingFace, NumPy, Pandas, Docker, Linux\/Unix, Bash\/Shell, CI\/CD, Azure, AWS, GCP, REST APIs
 
 == Involvement
 
